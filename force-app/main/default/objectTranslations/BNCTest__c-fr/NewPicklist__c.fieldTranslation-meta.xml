@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>FrenshPicklist</label>
+    <name>NewPicklist__c</name>
+    <picklistValues>
+        <masterLabel>AA</masterLabel>
+        <translation><!-- AA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BB</masterLabel>
+        <translation><!-- BB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CC</masterLabel>
+        <translation><!-- CC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DD</masterLabel>
+        <translation><!-- DD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
