@@ -101528,19 +101528,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Account %28Vendor%29</layout>
-        <recordType>Account.Vendor</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-LLC_BI__Account %28Business%29</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-LLC_BI__Account %28Business%29</layout>
         <recordType>Account.LLC_BI__Business</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-LLC_BI__Account %28Business%29</layout>
-        <recordType>Account.LLC_BI__Lender</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-LLC_BI__Account %28Household%29</layout>
@@ -101549,6 +101541,14 @@
     <layoutAssignments>
         <layout>Account-LLC_BI__Account %28Individual%29</layout>
         <recordType>Account.LLC_BI__Individual</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-LLC_BI__Account %28Business%29</layout>
+        <recordType>Account.LLC_BI__Lender</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account %28Vendor%29</layout>
+        <recordType>Account.Vendor</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account BrandLayout</layout>
@@ -101964,6 +101964,9 @@
         <layout>LLC_BI__Collateral_Valuation__c-LLC_BI__Collateral Valuation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-LLC_BI__Real Estate</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>LLC_BI__Collateral__c-LLC_BI__Government Contracts</layout>
         <recordType>LLC_BI__Collateral__c.LLC_BI__Government_Contracts</recordType>
     </layoutAssignments>
@@ -101990,9 +101993,6 @@
     <layoutAssignments>
         <layout>LLC_BI__Collateral__c-LLC_BI__Possessory Securities</layout>
         <recordType>LLC_BI__Collateral__c.LLC_BI__Possessory_Securities</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>LLC_BI__Collateral__c-LLC_BI__Real Estate</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LLC_BI__Collateral__c-LLC_BI__Real Estate</layout>
@@ -102552,15 +102552,15 @@
         <layout>LLC_BI__Product_Package_Team__c-LLC_BI__Product Package Team Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>LLC_BI__Product_Package__c-LLC_BI__nCino UI Hybrid</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>LLC_BI__Product_Package__c-LLC_BI__Product Package Layout</layout>
         <recordType>LLC_BI__Product_Package__c.LLC_BI__Deal_Proposal</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LLC_BI__Product_Package__c-LLC_BI__Product Package Layout</layout>
         <recordType>LLC_BI__Product_Package__c.LLC_BI__Treasury_Maintenance</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>LLC_BI__Product_Package__c-LLC_BI__nCino UI Hybrid</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LLC_BI__Product_Program_History_Detail__c-LLC_BI__Product Program History Detail Layout</layout>
@@ -102662,15 +102662,15 @@
         <layout>LLC_BI__Review_Loan__c-LLC_BI__Review Loan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LLC_BI__Review__c-LLC_BI__Account In Progress</layout>
-        <recordType>LLC_BI__Review__c.LLC_BI__Account_Review_In_Progress</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>LLC_BI__Review__c-LLC_BI__Account Review Complete</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LLC_BI__Review__c-LLC_BI__Account Review Complete</layout>
         <recordType>LLC_BI__Review__c.LLC_BI__Account_Review_Complete</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Review__c-LLC_BI__Account In Progress</layout>
+        <recordType>LLC_BI__Review__c.LLC_BI__Account_Review_In_Progress</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LLC_BI__Review__c-LLC_BI__Package Complete</layout>
