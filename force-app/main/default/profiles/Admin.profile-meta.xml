@@ -101608,9 +101608,6 @@
         <layout>Award-Award Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>BNCTest__c-BNCTest Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Banker-Banker Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
