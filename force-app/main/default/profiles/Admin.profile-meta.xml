@@ -13,13 +13,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Bicycle__c.NewField__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Bicycle__c.Notion__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Bicycle__c-Bicycle Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
         <endAddress>255.255.255.255</endAddress>
