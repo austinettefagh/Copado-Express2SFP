@@ -101610,6 +101610,9 @@
         <layout>AuthorizedInsuranceLine-Authorized Insurance Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Avetta__c-Avetta Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Award-Award Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -103507,6 +103510,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AuthorizedInsuranceLine</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Avetta__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
